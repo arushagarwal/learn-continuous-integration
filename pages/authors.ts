@@ -12,7 +12,6 @@ export const getAuthorList = async (): Promise<string[]> => {
     return [];
   }
 };
-
 // Function to handle the request and respond with author list
 export const showAllAuthors = async (res: Response): Promise<void> => {
   try {
